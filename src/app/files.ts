@@ -7,22 +7,22 @@ export interface File{
 export const fileList: File[] = [
   {
     id: 1,
-    imageName: 'A.jpg',
-    images: ['ananas.jpg','aparat.jpg', 'arbuz.jpg', 'autobus.jpg']
+    imageName: 'AR.png',
+    images: ['arbuz.jpg']
   },
   {
     id: 2,
-    imageName: 'D.jpeg',
-    images: ['dinozaur.jpg','dom.jpg', 'drzewo.jpg', 'drzwi.jpeg']
+    imageName: 'DI.png',
+    images: ['dinozaur.jpg']
   },
   {
     id: 3,
-    imageName: 'T.jpg',
-    images: ['taczka.jpg','termometr.jpg', 'tygrys.png']
+    imageName: 'TY.png',
+    images: ['tygrys.png']
   },
   {
     id: 4,
-    imageName: 'N.jpg',
-    images: ['narty.jpg','nocnik.jpg', 'noz.jpg', 'nozyczki.jpg']
+    imageName: 'NO.png',
+    images: ['nocnik.jpg', 'nozyczki.jpg']
   }
 ];
