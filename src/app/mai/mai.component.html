@@ -1,15 +1,23 @@
-<div style="width:800px; margin:0 auto;">
-  <img style="width:400px; height:400px;" src="assets/{{question.imageName}}">
 
-  <div style="font-size: 6vw;  float: right;">
-    <font color="blue" > {{appComponent.points}}</font>
-    <font color="red" > {{appComponent.incorrect}}</font>
+<div class="row">
+  <div class="column">1</div>
 
+  <div class="column">
+  <img class="image" src="assets/{{question.imageName}}">
+  </div>
+
+  <div class="column" style="font-size: 6vw;  float: right;">
+    <font color="blue"> {{appComponent.points}}</font>
+    <font color="red"> {{appComponent.incorrect}}</font>
   </div>
 </div>
 <br>
 
-<div style="display:inline-block" *ngFor="let option of question.options">
-  <app-option [option]="option" [main]="appComponent"></app-option>
+<div class="row">
+  <div class="column"  *ngFor="let option of question.options">
+    <app-option [option]="option" [main]="appComponent"></app-option>
+  </div>
 </div>
+
+
 <router-outlet></router-outlet>

@@ -5,7 +5,6 @@ import {An, Answer, Qu} from "./mai/mai.component";
 
 
 export class QuestionGenerator {
-  title = 'my-app';
 
   nextQuestion() {
     let files = fileList.slice();
